@@ -10,7 +10,7 @@ jobs:
     name: ⭐ Update badges 📅
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: joblo2213/aoc-badges-action@v3
         with:
           userid: ${{ secrets.AOC_USER_ID }}
