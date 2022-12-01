@@ -15,7 +15,7 @@ jobs:
         with:
           userid: ${{ secrets.AOC_USER_ID }}
           session: ${{ secrets.AOC_SESSION }}
-          year: 2021 
+          year: 2022
       - uses: stefanzweifel/git-auto-commit-action@v4
         name: 📤 Push
         with:
