@@ -90,5 +90,5 @@ def rps_score_update(filename):
 
     return score
 
-print("Day 01-1 Output: ", rps_score('input.txt'))
-print("Day 01-2 Output: ", rps_score_update('input.txt'))
+print("Day 02-1 Output: ", rps_score('input.txt'))
+print("Day 02-2 Output: ", rps_score_update('input.txt'))

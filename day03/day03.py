@@ -88,5 +88,5 @@ def rucksack_priorities_part2(filename):
 
     return priorities_sum
 
-print("Day 01-1 Output: ", rucksack_priorities('input.txt'))
-print("Day 01-2 Output: ", rucksack_priorities_part2('input.txt'))
+print("Day 03-1 Output: ", rucksack_priorities('input.txt'))
+print("Day 03-2 Output: ", rucksack_priorities_part2('input.txt'))
